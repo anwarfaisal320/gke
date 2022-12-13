@@ -1,13 +1,13 @@
 # Google Cloud Platform Provider
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs
 provider "google" {
-  project = "single-ripsaw-364416"
+  project = "single-364416"
   region = "us-central1"
 }
 
 provider "google-beta" {
 #version = "~> 3.66.0"
- project = "single-ripsaw-364416"
+ project = "single-364416"
  region = "us-central1"
 }
 terraform {
